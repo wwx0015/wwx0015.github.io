@@ -502,6 +502,27 @@ main {
   list-style: none;
 }
 
+.flow-list {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.flow-list li {
+  margin-bottom: 12px;
+  color: var(--muted);
+  line-height: 1.72;
+}
+
+.stack-line {
+  margin: 18px 0 0;
+  color: var(--muted);
+  line-height: 1.72;
+}
+
+.stack-line strong {
+  color: var(--text);
+}
+
 .project-card {
   padding: 26px;
   overflow: hidden;
