@@ -328,9 +328,10 @@ main {
 
 .achievement-value {
   display: block;
-  font-size: 1.16rem;
+  font-size: 1.06rem;
   font-weight: 800;
   color: var(--text);
+  line-height: 1.35;
 }
 
 .achievement-label {
