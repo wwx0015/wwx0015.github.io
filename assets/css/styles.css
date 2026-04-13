@@ -311,39 +311,8 @@ main {
   background: rgba(255, 255, 255, 0.8);
 }
 
-.achievement-row {
-  margin-top: 30px;
-}
-
-.achievement-card {
-  flex: 1 1 180px;
-  min-width: 180px;
-  padding: 18px;
-  border-radius: var(--radius-md);
-  border: 1px solid rgba(19, 33, 38, 0.08);
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.78), rgba(244, 236, 226, 0.96));
-  box-shadow: var(--shadow-soft);
-}
-
-.achievement-value {
-  display: block;
-  font-size: 1.06rem;
-  font-weight: 800;
-  color: var(--text);
-  line-height: 1.35;
-}
-
-.achievement-label {
-  display: block;
-  margin-top: 8px;
-  color: var(--muted);
-  font-size: 0.92rem;
-  line-height: 1.5;
-}
-
 .portrait-stage {
-  min-height: 640px;
+  min-height: 560px;
   display: grid;
   place-items: center;
 }
@@ -394,11 +363,6 @@ main {
 .note-top {
   top: 4%;
   right: 0;
-}
-
-.note-bottom {
-  bottom: 2%;
-  left: 6%;
 }
 
 .section {
